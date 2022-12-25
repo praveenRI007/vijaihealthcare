@@ -1,0 +1,36 @@
+.card:hover {
+    box-shadow: 0 4px 10px rgba(27, 160, 218, 0.16), 0 4px 10px rgba(3, 158, 248, 0.83);
+  }
+
+  .card{
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+  }
+
+  .card-header{
+    color: orange;
+  }
+
+
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+
+    .badge{
+      font-size: 590px;
+    }
+  }
+
+  @include media-breakpoint-up(sm){
+    .badge{
+      font-size: 
+    }
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
